@@ -1,11 +1,11 @@
-package id.sepfriyanp.githubuser.ui.main
+package id.sepfriyanp.search.ui.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import id.sepfriyanp.githubuser.data.model.User
-import id.sepfriyanp.githubuser.databinding.ItemUserBinding
+import id.sepfriyanp.search.data.model.User
+import id.sepfriyanp.search.databinding.ItemUserBinding
 
 class MainAdapter : RecyclerView.Adapter<MainAdapter.UserViewHolder>() {
 

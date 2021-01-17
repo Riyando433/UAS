@@ -1,10 +1,10 @@
-package id.sepfriyanp.githubuser.ui.detail
+package id.sepfriyanp.search.ui.detail
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
-import id.sepfriyanp.githubuser.databinding.ActivityDetailUserBinding
+import id.sepfriyanp.search.databinding.ActivityDetailUserBinding
 
 class DetailUserActivity : AppCompatActivity() {
     companion object {

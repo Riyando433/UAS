@@ -1,21 +1,21 @@
-package id.sepfriyanp.githubuser.ui.detail
+package id.sepfriyanp.search.ui.detail
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import id.sepfriyanp.githubuser.api.RetrofitUser
-import id.sepfriyanp.githubuser.data.model.User
+import id.sepfriyanp.search.api.RetrofitUser
+import id.sepfriyanp.search.data.model.User
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class FollowersViewModel : ViewModel() {
-    val listFollowers = MutableLiveData<ArrayList<User>>()
+class FollowingViewModel : ViewModel(){
+    val listFollowing = MutableLiveData<ArrayList<User>>()
 
-    fun setListFollowers(username: String) {
+    fun setListFollowing(username: String) {
         RetrofitUser.apiInstance
-            .getFollowers((username))
+            .getFollowing((username))
             .enqueue(object : Callback<ArrayList<User>> {
                 override fun onFailure(call: Call<ArrayList<User>>, t: Throwable) {
                     t.message?.let { Log.d("Failure", it) }
@@ -26,14 +26,14 @@ class FollowersViewModel : ViewModel() {
                     response: Response<ArrayList<User>>
                 ) {
                     if (response.isSuccessful) {
-                        listFollowers.postValue(response.body())
+                        listFollowing.postValue(response.body())
                     }
                 }
 
             })
     }
 
-    fun getListFollowers(): LiveData<ArrayList<User>> {
-        return listFollowers
+    fun getListFollowing(): LiveData<ArrayList<User>> {
+        return listFollowing
     }
 }

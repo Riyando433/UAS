@@ -1,4 +1,4 @@
-package id.sepfriyanp.githubuser.api
+package id.sepfriyanp.search.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

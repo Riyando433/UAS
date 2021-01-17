@@ -1,11 +1,10 @@
-package id.sepfriyanp.githubuser.api
+package id.sepfriyanp.search.api
 
-import id.sepfriyanp.githubuser.data.model.DetailUserResponse
-import id.sepfriyanp.githubuser.data.model.User
-import id.sepfriyanp.githubuser.data.model.UserResponse
+import id.sepfriyanp.search.data.model.DetailUserResponse
+import id.sepfriyanp.search.data.model.User
+import id.sepfriyanp.search.data.model.UserResponse
 import retrofit2.Call
 import retrofit2.http.GET
-import retrofit2.http.Headers
 import retrofit2.http.Path
 import retrofit2.http.Query
 

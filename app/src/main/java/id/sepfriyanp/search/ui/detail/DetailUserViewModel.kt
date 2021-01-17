@@ -1,11 +1,11 @@
-package id.sepfriyanp.githubuser.ui.detail
+package id.sepfriyanp.search.ui.detail
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import id.sepfriyanp.githubuser.api.RetrofitUser
-import id.sepfriyanp.githubuser.data.model.DetailUserResponse
+import id.sepfriyanp.search.api.RetrofitUser
+import id.sepfriyanp.search.data.model.DetailUserResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

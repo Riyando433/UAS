@@ -1,13 +1,13 @@
-package id.sepfriyanp.githubuser.ui.detail
+package id.sepfriyanp.search.ui.detail
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import id.sepfriyanp.githubuser.R
-import id.sepfriyanp.githubuser.databinding.FragmentFollowBinding
-import id.sepfriyanp.githubuser.ui.main.MainAdapter
+import id.sepfriyanp.search.R
+import id.sepfriyanp.search.databinding.FragmentFollowBinding
+import id.sepfriyanp.search.ui.main.MainAdapter
 
 class FollowersFragment : Fragment(R.layout.fragment_follow) {
 

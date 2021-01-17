@@ -1,4 +1,4 @@
-package id.sepfriyanp.githubuser.data.model
+package id.sepfriyanp.search.data.model
 
 data class User(
     val login: String,

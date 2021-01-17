@@ -1,4 +1,4 @@
-package id.sepfriyanp.githubuser.ui.main
+package id.sepfriyanp.search.ui.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,9 +7,9 @@ import android.view.KeyEvent
 import android.view.View
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import id.sepfriyanp.githubuser.data.model.User
-import id.sepfriyanp.githubuser.databinding.ActivityMainBinding
-import id.sepfriyanp.githubuser.ui.detail.DetailUserActivity
+import id.sepfriyanp.search.data.model.User
+import id.sepfriyanp.search.databinding.ActivityMainBinding
+import id.sepfriyanp.search.ui.detail.DetailUserActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

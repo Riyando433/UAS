@@ -1,4 +1,4 @@
-package id.sepfriyanp.githubuser
+package id.sepfriyanp.search
 
 import org.junit.Test
 
